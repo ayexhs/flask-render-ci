@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from CI/CD on Render!"
+    return "🚀 Auto-deploy is working perfectly!"
+
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
