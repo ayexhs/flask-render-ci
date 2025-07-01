@@ -1,10 +1,9 @@
-# .github/workflows/ci-cd.yml
-name: CI/CD with Render
+name: Flask CI/CD
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-test-deploy:
